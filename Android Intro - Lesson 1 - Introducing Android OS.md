@@ -21,6 +21,7 @@
 <small>названа в честь рыбацкой деревни в Исландии</small>
 
 >**Вся полезная информация тут**
+>
 >https://source.android.com/devices/tech/dalvik/dalvik-bytecode.html
 >https://source.android.com/devices/tech/dalvik/dex-format.html
 >https://source.android.com/devices/tech/dalvik/instruction-formats.html
@@ -49,4 +50,5 @@ Dalvik VM отличается от других виртуальных Java-м�
 
 -----
 <a id="jit"></a>JIT -- [*Just-in-time compilation*](https://en.wikipedia.org/wiki/Just-in-time_compilation) [↩](#jit-b)
+
 <a id="aot"></a>AOT -- [*Ahead-of-time compilation*](https://en.wikipedia.org/wiki/Ahead-of-time_compilation) -- компиляция происходит при установке приложения или при первом запуске ОС, если приложение встроенное. [↩](#aot-b)
