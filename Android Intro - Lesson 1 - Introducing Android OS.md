@@ -47,7 +47,6 @@ Dalvik VM отличается от других виртуальных Java-м�
 ------
 1. Найти примеры байткода Java и Dalvik. Посмотреть.
 2. Узнать, что такое *стековая* и *регистровая* архитектуры, рассказать мне при возможности.
-   http://www.sternkn.com/stack-based-vs-register-based-virtual-machine-architecture-and-the-dalvik-vm/
 
 -----
 <a id="jit"></a>JIT -- [*Just-in-time compilation*](https://en.wikipedia.org/wiki/Just-in-time_compilation) [↩](#jit-b)
