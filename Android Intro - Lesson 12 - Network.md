@@ -2,6 +2,7 @@
 
 ## Общая теория
 Вам уже приходилось использовать сетевые операции для выполнения заданий. Однако, суть этого занятия в том, чтобы ознакомиться с тем, как вообще работает сеть.
+
 1. [Сетевая модель OSI](https://ru.wikipedia.org/wiki/Сетевая_модель_OSI). Сразу в табличке уровней обратите внимание на столбик "примеры".
 2. Наш главный бог - протокол [IPv4](https://ru.wikipedia.org/wiki/IPv4).
 3. Протоколы [TCP](https://ru.wikipedia.org/wiki/Transmission_Control_Protocol) и [UDP](https://ru.wikipedia.org/wiki/User_Datagram_Protocol).
