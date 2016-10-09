@@ -21,5 +21,5 @@ Gradle комбинирует в себе декларативный и проц
   * название;
   * набор иконок;
   * использование встроенных покупок в одном их них (*Advanced*).
-Сделать настройку для данной конфигурации. Встроенные покупки изобразить схематично с помощью пустого класса или просто константы. Про ресурсы читайте в [этом уроке](https://github.com/shpp-android/course-android/blob/master/Android%20Intro%20-%Resources.md).
+Сделать настройку для данной конфигурации. Встроенные покупки изобразить схематично с помощью пустого класса или просто константы. Про ресурсы читайте в [этом уроке](https://github.com/shpp-android/course-android/blob/master/Android%20Intro%20-%20Resources.md).
 2. (*Hacker edition*) [Как известно](https://www.google.sk/url?sa=t&rct=j&q=&esrc=s&source=video&cd=1&cad=rja&uact=8&ved=0ahUKEwjU5pmg6c3PAhXKC8AKHTVSA9cQtwIIGjAA&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHzs6OBcvNQE&usg=AFQjCNHUJ80GT0KjKARyAcawCJiplWO-Zw&sig2=cNBkYXCl71EQWlE94t-kyw&bvm=bv.135258522,d.ZGg), использование enum в Андроид коде не рекомендуется. С помощью Gradle при запуске сборки искать в исходниках все enum и выдавать предупреждение. 
