@@ -6,8 +6,7 @@
 
 В Android SDK многопоточность реализуется с помощью классов из Java SDK
 (например [Thread](https://developer.android.com/reference/java/lang/Thread.html), 
-[ThreadPoolExecutor](https://developer.android.com/reference/java/util/concurrent/ThreadPoolExecutor.html), 
-[HandlerThread](https://developer.android.com/reference/android/os/HandlerThread.html)). 
+
 Кроме этого, есть вспомогательные классы уже в самом Android SDK ([AsyncTask](https://developer.android.com/reference/android/os/AsyncTask.html), 
 [IntentService](https://developer.android.com/reference/android/app/IntentService.html)).
 
@@ -22,6 +21,11 @@
 Конкретные видео:
 https://www.youtube.com/watch?v=qk5F6Bxqhr4&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE&index=1
 https://www.youtube.com/watch?v=0Z5MZ0jL2BM&list=PLWz5rJ2EKKc9CBxr3BVjPTPoDPLdPIFCE&index=2
+
+## Результаты
+* Понимать, как жизненный цикл приложения Android OS связан с жизненным циклом потоков (ЭТО ВАЖНО).
+* Как использовать общие переменные и данные в разных потоках (*synchronized*, *volatile*, приметка "этот класс не синхронизирован" в описании классов типа HashMap в документации).
+* Догадываться, когда нужно использовать тот или иной инструмент. (https://www.youtube.com/watch?v=0Z5MZ0jL2BM).
 
 # Задания
 1. Сделать поиск по каталогу с видео и фотками. Показать самые старые фотографии и видео. В этом уроке используйте один дополнительный поток. 
