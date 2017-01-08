@@ -11,7 +11,7 @@ The rules adding code here
 
 Timings
 ----
-You can find lessons estimated timings [[here|Timings]].
+You can find lessons estimated timings [here](Timings.md).
 
 Hints for the people-lesson-makers
 ----
