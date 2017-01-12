@@ -1,15 +1,10 @@
-﻿# Занятие 11. Многопоточность.
+# Advanced - Многопоточность.
 
-1. [Понятие многопоточности](https://habrahabr.ru/post/164487/)
-2. [В Android](https://github.com/codepath/android_guides/wiki/Managing-Threads-and-Custom-Services#understanding-the-main-thread).
-3. [AsyncTask](https://github.com/codepath/android_guides/wiki/Managing-Threads-and-Custom-Services#using-an-asynctask), еще в [видео](https://www.youtube.com/watch?v=jtlRNNhane0).
-4. [HandlerThread](https://github.com/codepath/android_guides/wiki/Managing-Threads-and-Custom-Services#using-a-handlerthread).
-5. [ThreadPoolExecutor](https://github.com/codepath/android_guides/wiki/Managing-Threads-and-Custom-Services#using-a-threadpoolexecutor).
-
-### Результаты
-* Понимать, как жизненный цикл приложения Android OS связан с жизненным циклом потоков (ЭТО ВАЖНО).
-* Как использовать общие переменные и данные в разных потоках (*synchronized*, *volatile*, приметка "этот класс не синхронизирован" в описании классов типа HashMap в документации).
-* Догадываться, когда нужно использовать тот или иной инструмент. (https://www.youtube.com/watch?v=0Z5MZ0jL2BM).
+1. Еще раз [понятие многопоточности](https://habrahabr.ru/post/164487/)
+2. [HandlerThread - dev.android.com](https://developer.android.com/reference/android/os/HandlerThread.html)). 
+3. [HandlerThread - Codepath](https://github.com/codepath/android_guides/wiki/Managing-Threads-and-Custom-Services#using-a-handlerthread).
+4. [ThreadPoolExecutor - dev.android.com](https://developer.android.com/reference/java/util/concurrent/ThreadPoolExecutor.html), 
+5. [ThreadPoolExecutor - Codepath](https://github.com/codepath/android_guides/wiki/Managing-Threads-and-Custom-Services#using-a-threadpoolexecutor).
 
 ### Задание
 Написать даунлоадер картинок котиков с интернета. Должен использовать пулл потоков для скачивания.
